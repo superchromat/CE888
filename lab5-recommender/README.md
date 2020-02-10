@@ -18,8 +18,8 @@ In the Ipython notebook you created
     * The data is from [http://eigentaste.berkeley.edu/dataset/](http://eigentaste.berkeley.edu/dataset/) and it contains the ratings of 101 jokes from 24,983 users
 	* You can find the jokes in the website [http://eigentaste.berkeley.edu/dataset/jester_dataset_1_joke_texts.zip](http://eigentaste.berkeley.edu/dataset/jester_dataset_1_joke_texts.zip)
 	* Check the dataset description to understand why we replace random cells as 99!
-- [ ] Using the helper function provided in the helper_function notebook (or create your own), label 20% of the dataset cells as 99. Keep the the actual values of the cells so you can use them at the last point.
-- [ ] Use half of the values above as **test set** (i.e., don't look at them/use them until the last point)
+- [ ] Using the helper function provided in the helper_function notebook (or create your own), label 20% of the dataset cells as 99. Keep the the actual values of the cells so you can use them at the end.
+- [ ] Use half of the values above as **test set** (i.e., don't look at them/use them until the end)
 - [ ] The other half is your **validation set**. Keep the the actual values of the cells so you can use them later. 
 - [ ] Use latent factor modeling to infer the hidden ratings of the users (they are labeled as "99" in the dataset) on the training set
 - [ ] Calculate the performance of the algorithm on the validation dataset

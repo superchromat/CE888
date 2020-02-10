@@ -23,7 +23,7 @@ In the Ipython notebook you created
 - [ ] The other half is your **validation set**. Keep the the actual values of the cells so you can use them later. 
 - [ ] Use latent factor modeling to infer the hidden ratings of the users (they are labeled as "99" in the dataset) on the training set
 - [ ] Calculate the performance of the algorithm on the validation dataset
-- [ ] Change hyper-parameters (i.e., learning rate, number of iterations of SVD, number of latent factors, etc.) as needed to get good results **using only your training and validation sets**
+- [ ] Repeat the two points above changing hyper-parameters (i.e., learning rate, number of iterations of SVD, number of latent factors, etc.) as needed to get good results **using only your training and validation sets** (you can create multiple validation sets if you want, and run a bootstrap!)
 - [ ] Once you're happy, report the MSE on the **test dataset**
 - [ ] (If you have time) Use pandas to find the best- and the worst-rated jokes
 - [ ] Make sure you save your changes in Github!

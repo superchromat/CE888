@@ -3,14 +3,30 @@
 ## Ipython notebooks
 
 * facebook_regression.ipynb and facebook_classification.ipynb contain the code used in the lecture.
+
+## Lab Exercises
     
 * Create a new ipython notebook called bank_classification.ipynb
 	
 * Check the bank dataset
 	* ``bank-additional-full.csv``
 	* [https://archive.ics.uci.edu/ml/datasets/Bank+Marketing](https://archive.ics.uci.edu/ml/datasets/Bank+Marketing)
+	
+* In the Ipython notebook you created
 
-Attribute Information:
+- [ ] Load the data from `bank-additional-full.csv`
+- [ ] Use a classifier (anything, but `ExtraTreesClassifier` with 100 estimators is the easiest option) on the data with outcome/output variable "y"
+    * Convert to dummies using `df_dummies = pd.get_dummies(df)`
+    * Columns "y_no" and "duration" must be deleted - use something like `del df_copy["attribute"]` for this
+    * Plot histogram of the label `y_yes`
+    * Get the values and run a classifier (with outcome `y_yes`)
+    * Report the results of 10-Kfold stratified cross-validation
+    * Get sample importances and a confusion matrix
+    
+- [ ] Make sure you save your changes in Github!
+
+
+Attribute Information of the Bank Marketing dataset:
 
 ~~~
 Input variables:
@@ -43,24 +59,3 @@ Output variable (desired target):
 21 - y - has the client subscribed a term deposit? (binary: 'yes','no')
 
 ~~~
-
-
-## Lab Exercises
-In the Ipython notebook you created
-
-- [ ] Load the data from `bank-additional-full.csv`
-- [ ] Use a classifier (anything, but `ExtraTreesClassifier` with 100 estimators is the easiest option) on the data with outcome/output variable "y"
-    * Convert to dummies using `df_dummies = pd.get_dummies(df)`
-    * Columns "y_no" and "duration" must be deleted - use something like `del df_copy["attribute"]` for this
-    * Plot histogram of the label `y_yes`
-    * Get the values and run a classifier (with outcome `y_yes`)
-    * Report the results of 10-Kfold stratified cross-validation
-    * Get sample importances and a confusion matrix
-    
-- [ ] Make sure you save your changes in Github, in a folder called lab4
-
-
-
-
-
-

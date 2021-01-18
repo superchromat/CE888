@@ -1,4 +1,4 @@
-# Lab 4 - Modelling
+# Lab 3 - Modelling
 
 ## Ipython notebooks
 

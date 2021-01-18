@@ -1,4 +1,4 @@
-# Lab 5 - Recommender systems
+# Lab 4 - Recommender systems
 
 ## Resources
 
@@ -10,7 +10,7 @@
 
 ## Lab Exercises
 
-- [ ] Create a folder called lab5
+- [ ] Create a folder called lab4
 - [ ] Create a notebook called *my_recommender.ipynb*
 
 In the Ipython notebook you created
@@ -25,11 +25,4 @@ In the Ipython notebook you created
 - [ ] Once you're happy, make predictions for the **test dataset**
 - [ ] (If you have time) Use pandas to find the best- and the worst-rated jokes
 - [ ] Make sure you save your changes in Github!
-
-Don't worry if I don't have time to check your work during the lab. As long as it's on GitHub, it will be marked!
-
-
-
-
-
 

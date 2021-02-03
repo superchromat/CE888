@@ -13,7 +13,7 @@
 - [ ] Create a folder called lab4
 - [ ] Create a notebook called *my_recommender.ipynb*
 
-In the Ipython notebook you created
+In the Jupyter notebook you created
 - [ ] Load the data from ``jester-data-1.csv''
     * The data is from [http://eigentaste.berkeley.edu/dataset/](http://eigentaste.berkeley.edu/dataset/) and it contains the ratings of 101 jokes from 24,983 users
 	* You can find the jokes in the website [http://eigentaste.berkeley.edu/dataset/jester_dataset_1_joke_texts.zip](http://eigentaste.berkeley.edu/dataset/jester_dataset_1_joke_texts.zip)

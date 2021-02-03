@@ -17,7 +17,7 @@
 - [ ] Load the data from `bank-additional-full.csv`
 - [ ] Data preprocessing:
     * Use LabelEncoder to convert the label into numbers.
-    * Convert to One-Hot encoding using `df_dummies = pd.get_dummies(df)`
+    * Convert the categorical values to One-Hot encoding using `df_dummies = pd.get_dummies(df)`
     * Column "duration" must be deleted
     * Check if there are any missing values in the dataset. If there are, drop the rows.
     * Plot histogram of the label and calculate the imbalance in the dataset.

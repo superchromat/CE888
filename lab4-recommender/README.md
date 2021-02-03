@@ -4,7 +4,7 @@
 
 * rec_latent.ipynb contains the code shown in the lecture for a recommender system based on latent features
 * rec_features.ipynb contains the code from the lecture for a hybrid recommender system
-* item_features, user_features and user_ratings contain the data
+* item_features.csv, user_features.csv and user_ratings.csv contain the data needed for this lab
 * helper_function.ipynb contains a function that will help you with the exercises below, together with an example of use
 
 

@@ -23,6 +23,7 @@ In the Jupyter notebook you created
 - [ ] Use pandas to find the best- and the worst-rated jokes
 - [ ] Modify and use the helper function provided in the helper_function notebook (or create your own) to label 10% of the dataset cells that are not NaNs as 99. This is your **validation set**. Keep the the actual values of the cells so you can use them later (as done in the example of the helper_function notebook). 
 - [ ] Use latent factor modeling (with 4 latent factors) to infer the hidden ratings of the users (they are labeled as "99" in the dataset) on the training set. You will have to modify at least one line in the provided sgd() function for this.
+	* sgd with 300000 iterations will take a long time to run: you can decrease this number.
 - [ ] Calculate the performance (e.g., MSE) of the algorithm on the **validation dataset**
 - [ ] Repeat the two points above changing hyper-parameters (i.e., learning rate, number of iterations of SVD, number of latent factors, etc.) as needed to get good results (you can create multiple validation sets if you want, and run a bootstrap!)
 - [ ] Once you're happy, make predictions for the **test dataset**

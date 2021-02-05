@@ -6,6 +6,10 @@
 * rec_features.ipynb contains the code from the lecture for a hybrid recommender system
 * item_features.csv, user_features.csv and user_ratings.csv contain the data needed for this lab
 * helper_function.ipynb contains a function that will help you with the exercises below, together with an example of use
+* movies_latent_factors.xslx is a spreadsheet with two sheets:
+	* The Items sheet contains the feature values for 100 items and 15 latent factors
+	* The Users sheet contains the feature values for 20 users and those 15 latent factors.
+	* Have a look here to find out how to load this file: [https://www.statology.org/pandas-read-excel/](https://www.statology.org/pandas-read-excel/)
 
 
 ## Lab Exercises

@@ -4,7 +4,8 @@
 
 * rec_latent.ipynb contains the code shown in the lecture for a recommender system based on latent features
 * rec_features.ipynb contains the code from the lecture for a hybrid recommender system
-* item_features.csv, user_features.csv and user_ratings.csv contain the data needed for this lab
+* item_features.csv, user_features.csv and user_ratings.csv contain the data used in the lecture
+* jester-data-1.csv contains the data needed for this lab (the Jokes dataset)
 * helper_function.ipynb contains a function that will help you with the exercises below, together with an example of use
 * movies_latent_factors.xslx is a spreadsheet with two sheets:
 	* The Items sheet contains the feature values for 100 items and 15 latent factors
